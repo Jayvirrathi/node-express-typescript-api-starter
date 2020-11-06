@@ -2,8 +2,6 @@
 
 Includes API Server utilities:
 
-- [babel-core](https://www.npmjs.com/package/@babel/core)
-  - Babel is a JavaScript compiler.
 - [morgan](https://www.npmjs.com/package/morgan)
   - HTTP request logger middleware for node.js
 - [helmet](https://www.npmjs.com/package/helmet)
@@ -43,5 +41,6 @@ npm run test
 ## Development
 
 ```
+npm run watch
 npm run dev
 ```
