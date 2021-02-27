@@ -12,11 +12,11 @@ function errorHandler(err, __, res, _) {
   res.status(statusCode);
   res.json({
     message: err.message,
-    stack: process.env.NODE_ENV === "production" ? "🥞" : err.stack,
+    stack: process.env.NODE_ENV === 'production' ? '🥞' : err.stack
   });
 }
 
 module.exports = {
   notFound,
-  errorHandler,
+  errorHandler
 };

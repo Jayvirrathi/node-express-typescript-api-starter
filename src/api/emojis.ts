@@ -1,8 +1,8 @@
-import express from "express";
+import express from 'express';
 const router = express.Router();
 
-router.get("/", (_, res) => {
-  res.json(["😀", "😳", "🙄"]);
+router.get('/', (_, res) => {
+  res.json(['😀', '😳', '🙄']);
 });
 
 module.exports = router;
